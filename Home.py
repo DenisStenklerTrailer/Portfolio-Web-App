@@ -33,6 +33,8 @@ with col3:
             st.write(row["description"])
             st.image(f"images/{row['image']}")
             st.write(f"[Source code]({row['url']})")
+            if {row['website']} != "":
+                st.write(f"[Website]({row['website']})")
 with col4:
     for index, row in df.iterrows():
         if index % 2 == 1:
@@ -40,3 +42,5 @@ with col4:
             st.write(row["description"])
             st.image(f"images/{row['image']}")
             st.write(f"[Source code]({row['url']})")
+            if {row['website']} != "":
+                st.write(f"[Website]({row['website']})")
