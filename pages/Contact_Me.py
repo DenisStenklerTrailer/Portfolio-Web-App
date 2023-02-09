@@ -13,9 +13,11 @@ From: {user_email}
 {text_input}
     """
     button = st.form_submit_button("Send!")
-
     if button:
-        send_email.send_email(message)
-        st.info("Your email was sent successfully")
+        try:
+            send_email.send_email(message)
+            st.info("Your email was sent successfully")
+        except:
+            st.info("Email functionality is curentlly working only on my local computer due to hiding the password...")
 
 
