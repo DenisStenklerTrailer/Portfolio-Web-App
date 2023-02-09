@@ -12,13 +12,14 @@ with col1:
 with col2:
     st.title("Denis Štenkler")
     content = """
-    Star sem 26 let. Sem organiziran, discipliniran, samoiniciativen, komunikativen in športnik po duši. 
-    Moja glavna dobra lastnost je, da se rad učim in imam veliko željo po nečem novem. 
+    I am 26 years old. I am organized, disciplined, self-initiative, communicative and an athlete at heart. 
+    My main good quality is that I like to learn and I have a great desire for something new.
 
-    Od malih nog se praktično ukvarjam s športom. Pri 7 letih sem se začel ukvarjati s hokejem in ga treniral 11 let,
-    nato pa sem se bolj našel v vzdržljivostnih športnih in sedaj resno treniram gorski tek v kombinaciji s kolesarstvom.
-    Ukvarjam se tudi z jadralnim padalstvom kjer najbolj prakticiram Hike&Fly letenje kar pomeni hoja v hribe in nato spust s padalom v dolino.
-    Šport me je do sedaj vsekakor naučil discipline, vztrajnosti kjer je veliko vzponov in padcev in pa predvsem urejanja dnevnega časa.
+    I have been involved in sports since I was a child. I started playing hockey at the age of 7 and played it for 11 years,
+    then I found myself more into endurance sports and now I seriously train trail running in combination with cycling.
+    I am also passionate paraglider, where I mainly practice Hike&Fly flying, which means walking into the mouintains and then flying into the valley.
+    So far, sport has definitely taught me discipline, persistence, where there are many ups and downs, and above all, managing the time of day.
+
     """
     st.info(content)
 
